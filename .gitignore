@@ -1,0 +1,84 @@
+# ---------- Godot 4 ----------
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+*.translation
+.mono/
+data_*/
+mono_crash.*.json
+
+# ---------- C++ / binarios ----------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pch
+*.gch
+*.os
+*.out
+*.app
+
+# ---------- CMake ----------
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+compile_commands.json
+
+# ---------- SCons ----------
+.sconsign*.dblite
+.sconf_temp/
+config.log
+
+# ---------- GDExtension output ----------
+game/bin/
+
+# ---------- Visual Studio ----------
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+x64/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+
+# ---------- VS Code ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---------- SO ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp

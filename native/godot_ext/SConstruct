@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# Nexora GDExtension - placeholder
+#
+# TODO:
+#   - Agregar godot-cpp como submódulo en third_party/godot-cpp
+#   - env = SConscript("../../third_party/godot-cpp/SConstruct")
+#   - Compilar native/core/src/*.cpp junto con src/*.cpp de esta carpeta
+#   - CPPPATH: ../core/include
+#   - Salida: game/bin/libnexora{env['suffix']}{env['SHLIBSUFFIX']}
+#   - Crear game/bin/nexora.gdextension
+#
+# Regla: aquí vive solo el binding Godot <-> native/core.
+
+Exit("SConstruct placeholder: falta configurar godot-cpp (ver TODO).")
